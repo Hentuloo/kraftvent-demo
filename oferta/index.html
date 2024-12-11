@@ -558,7 +558,7 @@
     <link
       rel="stylesheet"
       id="fusion-dynamic-css-css"
-      href="https://hentuloo.github.io/kraftvent-demo/wp-content/uploads/fusion-styles/aaff34d9545ed94348e185dabe1e0eab.min.css"
+      href="https://hentuloo.github.io/kraftvent-demo/wp-content/uploads/fusion-styles/6476b9edeee62aa4bb98dd7b442aad55.min.css"
       type="text/css"
       media="all"
     />
@@ -746,12 +746,13 @@
         <div id="home" style="position: relative; top: -1px"></div>
         <div class="fusion-tb-header">
           <div
-            class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling"
+            class="fusion-fullwidth fullwidth-box fusion-builder-row-1 fusion-flex-container has-pattern-background has-mask-background nonhundred-percent-fullwidth non-hundred-percent-height-scrolling fusion-custom-z-index"
             style="
               --awb-border-radius-top-left: 0px;
               --awb-border-radius-top-right: 0px;
               --awb-border-radius-bottom-right: 0px;
               --awb-border-radius-bottom-left: 0px;
+              --awb-z-index: 9999999;
               --awb-padding-top: 10px;
               --awb-padding-bottom: 10px;
               --awb-background-color: var(--awb-custom_color_2);
@@ -841,8 +842,10 @@
                 </div>
               </div>
               <div
-                class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_5_6 5_6 fusion-flex-column fusion-flex-align-self-stretch"
+                class="fusion-layout-column fusion_builder_column fusion-builder-column-1 fusion_builder_column_5_6 5_6 fusion-flex-column fusion-flex-align-self-stretch menu-style"
                 style="
+                  --awb-z-index: 9999999999999999999999999;
+                  --awb-z-index-hover: 99999999999999999999999;
                   --awb-bg-size: cover;
                   --awb-width-large: 83.333333333333%;
                   --awb-margin-top-large: 0px;
@@ -863,7 +866,7 @@
                   class="fusion-column-wrapper fusion-column-has-shadow fusion-flex-justify-content-center fusion-content-layout-column"
                 >
                   <nav
-                    class="awb-menu awb-menu_row awb-menu_em-click mobile-mode-collapse-to-button awb-menu_icons-left awb-menu_dc-yes mobile-trigger-fullwidth-off awb-menu_mobile-toggle awb-menu_indent-left mobile-size-full-absolute loading mega-menu-loading awb-menu_desktop awb-menu_dropdown awb-menu_expand-right awb-menu_transition-fade"
+                    class="awb-menu awb-menu_row awb-menu_em-click mobile-mode-collapse-to-button awb-menu_icons-left awb-menu_dc-yes mobile-trigger-fullwidth-off awb-menu_mobile-toggle awb-menu_indent-left mobile-size-full-absolute loading mega-menu-loading awb-menu_desktop awb-menu_dropdown awb-menu_expand-right awb-menu_transition-fade menu-style"
                     style="
                       --awb-bg: var(--awb-custom_color_2);
                       --awb-gap: 40px;
@@ -876,6 +879,7 @@
                       --awb-mobile-trigger-background-color: var(
                         --awb-custom_color_2
                       );
+                      --awb-mobile-nav-trigger-bottom-margin: 20px;
                       --awb-mobile-justify: flex-start;
                       --awb-mobile-caret-left: auto;
                       --awb-mobile-caret-right: 0;
